@@ -1,8 +1,7 @@
-import { AppShell} from '@mantine/core';
-import NavbarContent from './navbar';
-import CalenderMain from './CalenderMain';
-
-export default function Calender(){
+import { AppShell } from "@mantine/core";
+import NavbarContent from "../../components/navbar";
+import WorkFlowsContent from "./WorkFlowsContent";
+export default function WorkFlows(){
     return(
         <AppShell
             padding="md"
@@ -11,7 +10,7 @@ export default function Calender(){
             main: { backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[8] : theme.colors.gray[0] },
             })}
         >
-        <CalenderMain/>
-        </AppShell> 
-         )
+          <WorkFlowsContent/>  
+        </AppShell>
+    )
 }

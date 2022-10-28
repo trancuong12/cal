@@ -1,4 +1,4 @@
-import { Button,createStyles,Switch,Navbar,ThemeIcon } from "@mantine/core"
+import { Button,createStyles,ThemeIcon } from "@mantine/core"
 import {IconCalendarEvent,IconInbox,IconRotate,IconHistory, IconCircleX} from "@tabler/icons"
 
 
@@ -44,7 +44,7 @@ const useStyles = createStyles((theme, _params, getRef) => ({
         justifyContent:'start',
     }
   }));
-export default function CalenderMain(){
+export default function BookingContent(){
     const {classes} = useStyles();
     return(
         <>

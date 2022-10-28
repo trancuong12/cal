@@ -42,10 +42,11 @@ function MainLink({ icon, color, label }: NavLinkProps) {
 
 const data = [
   { icon: <IconLink size={16} />, color: 'blue', label: 'Các loại sự kiện' , go:'/event' },
-  { icon: <IconCalendarEvent size={16} />, color: 'teal', label: 'Các lịch hẹn', go:'/calender'},
-  { icon: <IconClock size={16} />, color: 'teal', label: 'Lịch khả dụng', go:'/calender'},
+  { icon: <IconCalendarEvent size={16} />, color: 'teal', label: 'Các lịch hẹn', go:'/booking'},
+  { icon: <IconClock size={16} />, color: 'teal', label: 'Lịch khả dụng', go:'/availability'},
+  { icon: <IconUsers size={16} />, color: 'teal', label: 'Các nhóm', go:'/teams'},
   { icon: <IconApps size={16} />, color: 'teal', label: 'Ứng dụng', go:'/calender'},
-  { icon: <IconArrowZigZag size={16} />, color: 'teal', label: 'Tiến độ công việc', go:'/calender'},
+  { icon: <IconArrowZigZag size={16} />, color: 'teal', label: 'Tiến độ công việc', go:'/workflows'},
   { icon: <IconSettings size={16} />, color: 'teal', label: 'Cài đặt', go:'/calender'},
   
 ];
