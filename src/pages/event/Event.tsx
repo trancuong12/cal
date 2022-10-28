@@ -1,6 +1,6 @@
 import { AppShell} from '@mantine/core';
-import NavbarContent from './navbar';
-import Emain from './emain';
+import NavbarContent from '../../components/navbar';
+import Emain from './EventMain';
 
 
 export default function Event(){

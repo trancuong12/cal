@@ -1,6 +1,6 @@
 import {BrowserRouter,Routes,Route,useParams} from "react-router-dom"
-import Login from "./components/login";
-import Event from "./components/event";
+import Login from "./pages/login/Login";
+import Event from "./pages/event/Event";
 import Calender from "./components/calender";
 function App() {
   return (
